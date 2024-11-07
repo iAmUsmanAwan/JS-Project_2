@@ -1,0 +1,62 @@
+body {
+  background: rgb(66, 66, 66);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.red {
+  background: #e44236;
+  margin-right: 5px;
+}
+.cyan {
+  background: #25ccf7;
+  margin-right: 5px;
+}
+.violet {
+  background: hsl(270, 48%, 49%);
+  margin-right: 5px;
+}
+.orange {
+  background: #FFA500;
+  margin-right: 5px;
+}
+.pink {
+  background: hsl(310, 79%, 59%);
+}
+
+.center {
+  min-width: 400px;
+  height: 400px;
+  background: rgb(66, 66, 66);
+  border-radius: 100%;
+  transition: 0.99s ease-in-out all;
+}
+.color-hover {
+  position:absolute;
+  top: 10%;
+  bottom: 0;
+  left: 48%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.text {
+  padding: 10px;
+  color: #ffffff;
+}
+.color {
+  width: 120px;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+.color:hover {
+  cursor: pointer;
+}
+.color:last-child {
+  margin-bottom: 0;
+}
